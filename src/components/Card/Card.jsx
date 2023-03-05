@@ -27,7 +27,7 @@ export const Card = ({ userData, update }) => {
   
     useEffect(() => {
       update(id, isFollow, userFollowers);
-    }, [isFollow]);
+    }, );
   
 return (
     <Container>
